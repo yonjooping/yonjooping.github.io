@@ -710,3 +710,15 @@ var BokehShape = Zdog.Shape.subclass({
 
     move();
 });
+
+
+$(".bnr-close").click(function(){
+  $(".css-banner").addClass("closed");
+});
+$('#open-new-page1').click(function () {
+  window.open('megacube.html', '_blank'); 
+});
+$('#open-new-page2').click(function () {
+    window.open('howmuch.html', '_blank'); 
+});
+
