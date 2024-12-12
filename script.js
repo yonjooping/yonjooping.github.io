@@ -712,13 +712,40 @@ var BokehShape = Zdog.Shape.subclass({
 });
 
 
-$(".bnr-close").click(function(){
-  $(".css-banner").addClass("closed");
-});
-$('#open-new-page1').click(function () {
-  window.open('megacube.html', '_blank'); 
-});
-$('#open-new-page2').click(function () {
-    window.open('howmuch.html', '_blank'); 
+$('.bnr-close').click(function(){
+  $('.css-banner').addClass('closed');
 });
 
+$('.bento-grid > .item').click(function(){
+  $('body').css('overflow', 'hidden');
+});
+
+$('.bento-grid > .opml1').click(function(){
+  $('#modal1').show();
+});
+$('.bento-grid > .opml2').click(function(){
+  $('#modal2').show();
+});
+$('.bento-grid > .opml3').click(function(){
+  $('#modal3').show();
+});
+$('.bento-grid > .opml4').click(function(){
+  $('#modal4').show();
+});
+$('.bento-grid > .opml5').click(function(){
+  $('#modal5').show();
+});
+$('.bento-grid > .opml6').click(function(){
+  $('#modal6').show();
+});
+
+
+$('.btn-close').click(function(){
+  $('body').css('overflow', '');
+  $('#modal1').hide();
+  $('#modal2').hide();
+  $('#modal3').hide();
+  $('#modal4').hide();
+  $('#modal5').hide();
+  $('#modal6').hide();
+});
