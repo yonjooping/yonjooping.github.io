@@ -719,7 +719,15 @@ $('.bnr-close').click(function(){
 $('.bento-grid > .item').click(function(){
   $('body').css('overflow', 'hidden');
 });
-
+$('.btn-close').click(function(){
+  $('body').css('overflow', '');
+  $('#modal1').hide();
+  $('#modal2').hide();
+  $('#modal3').hide();
+  $('#modal4').hide();
+  $('#modal5').hide();
+  $('#modal6').hide();
+});
 $('.bento-grid > .opml1').click(function(){
   $('#modal1').show();
 });
@@ -740,12 +748,3 @@ $('.bento-grid > .opml6').click(function(){
 });
 
 
-$('.btn-close').click(function(){
-  $('body').css('overflow', '');
-  $('#modal1').hide();
-  $('#modal2').hide();
-  $('#modal3').hide();
-  $('#modal4').hide();
-  $('#modal5').hide();
-  $('#modal6').hide();
-});

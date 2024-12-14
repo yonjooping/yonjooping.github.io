@@ -460,6 +460,7 @@ span:hover::before {
 
 .modal-container .modal-inner {
   overflow-x: hidden;
+  overflow-y: auto;
   padding: 0 8%;
   min-width: 600px;
   max-height: 100vh;
