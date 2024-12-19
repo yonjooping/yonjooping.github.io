@@ -716,6 +716,7 @@ $('.bnr-close').click(function(){
   $('.css-banner').addClass('closed');
 });
 
+
 $('.bento-grid > .item').click(function(){
   $('body').css('overflow', 'hidden');
 });
@@ -728,9 +729,14 @@ $('.btn-close').click(function(){
   $('#modal5').hide();
   $('#modal6').hide();
 });
-$('.bento-grid > .opml1').click(function(){
-  $('#modal1').show();
+// $('.bento-grid > .opml1').click(function(){
+//   $('#modal1').show();
+// });
+$('.bento-grid > .opml1').click(function () {
+  window.open('https://www.figma.com/proto/7YLnGjgpsDMkGJPxIM0abd/megacube-interactive?node-id=3-2013&t=3BuSvTdI9Oa8UaJQ-1&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3%3A2013', '_blank');
+  $('body').css('overflow', '');
 });
+
 $('.bento-grid > .opml2').click(function(){
   $('#modal2').show();
 });
@@ -746,5 +752,6 @@ $('.bento-grid > .opml5').click(function(){
 $('.bento-grid > .opml6').click(function(){
   $('#modal6').show();
 });
+
 
 
