@@ -732,6 +732,10 @@ $('.btn-close').click(function(){
 // $('.bento-grid > .opml1').click(function(){
 //   $('#modal1').show();
 // });
+$('.bento-grid > .opml0').click(function () {
+  window.open('https://www.figma.com/proto/cgqetunGfn87OlMgNij86O/%ED%85%8C%EB%84%A4%ED%84%B0%EC%8A%A4?node-id=14-11091&t=O2LiEvFJ8xuBBYin-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=12%3A10645', '_blank');
+  $('body').css('overflow', '');
+});
 $('.bento-grid > .opml1').click(function () {
   window.open('https://www.figma.com/proto/7YLnGjgpsDMkGJPxIM0abd/megacube-interactive?node-id=3-2013&t=3BuSvTdI9Oa8UaJQ-1&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3%3A2013', '_blank');
   $('body').css('overflow', '');
